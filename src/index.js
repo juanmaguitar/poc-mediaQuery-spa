@@ -2,6 +2,8 @@ import React, { Fragment } from "react";
 import ReactDOM from "react-dom";
 import MediaQuery, { MediaQueryFactory } from "react-media-query";
 
+import "./styles.css";
+
 const BREAKPOINTS = {
   sm: "576",
   md: "768",
@@ -11,7 +13,6 @@ const BREAKPOINTS = {
 
 const MediaQueryBootstrap = MediaQueryFactory(BREAKPOINTS);
 
-import "./styles.css";
 
 const App = () => (
   <Fragment>
