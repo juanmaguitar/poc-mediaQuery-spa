@@ -1,0 +1,42 @@
+.responsiveContainer p {
+  font-size: 2em;
+  color: white;
+  padding: 10px;
+  background: black;
+}
+.responsiveContainer .XS {
+  background: red;
+}
+.responsiveContainer .S {
+  background: blue;
+}
+.responsiveContainer .M {
+  background: orange;
+}
+.responsiveContainer .L {
+  background: CadetBlue;
+}
+.responsiveContainer .XL {
+  background: brown;
+}
+.responsiveContainer .XXL {
+  background: green;
+}
+
+.responsiveBootstrap p {
+  font-size: 2em;
+  padding: 10px;
+  border: 2px solid black;
+}
+.responsiveBootstrap .SM {
+  background: yellow;
+}
+.responsiveBootstrap .MD {
+  background: azure;
+}
+.responsiveBootstrap .LG {
+  background: AliceBlue;
+}
+.responsiveBootstrap .XL {
+  background: BlanchedAlmond;
+}
