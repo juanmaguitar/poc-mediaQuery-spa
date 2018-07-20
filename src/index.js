@@ -17,7 +17,7 @@ const MediaQueryBootstrap = MediaQueryFactory(BREAKPOINTS);
 const App = () => (
   <Fragment>
     <MediaQuery>
-      {({ M, L, XL, XXL }) => {
+      {({ M, L, XL }) => {
         if (XL) return <p>LargeDesktop</p>;
         if (L) return <p>Desktop</p>;
         if (M) return <p>Tablet</p>;
